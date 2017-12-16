@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+<body>
+  <header>
+      <div class="row>">
+        <img src="images/logo.png" class="logo">
+      <ul>
+        <li>
+          <a class="btn btn-success" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a class="btn btn-success" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a class="btn btn-success" href="https://www.instagram.com" target="_blank"><i class="fa-instagram" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a class="btn btn-success" href="https://www.line.com" target="_blank"><img src="images/LINE_Icon.png" height="20px" width="20px"></a>
+        </li>
+        <p></p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="pricing.html">Prices</a></li>
+      <li><a href="contact.html" class="current">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="all" class="bg">
+    <h1>Contact</h1>
+
+  <section id="directions">
+    <div id="map">
+      <!--Map to the studio. Try <iframe> if not screen shot of map -->
+    </div>
+    <script>
+    function initMap() {
+        var uluru = {lat: 35.7358922, lng: 139.7522866};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAztZG6yRT0LQ95VJJTLZYlFXTJtPb6Jgk&callback=initMap">
+  </script>
+</section>
+
+
+<!--Photo of the studio, if needed -->
+<!--  <div id="studio">
+
+     <img src="images/studio.jpg">
+   </div> -->
+
+   <div id="qr">
+     <img src="images/qr-code.png">
+   </div>
+
+    <div id="address">
+      <!--Text of address and studio name -->
+      4-1-11 Tabata, Kita-ku, Tokyo Clair Building 1F, NUTS Studio
+      (4-min walk from Komagome Station)
+      東京都北区田端4-1-11 クレールビル１Ｆ, NUTS スタジオ
+      (駒込駅徒歩4分)<p></p>
+<!--
+      <div id="contact-details"> -->
+        <h2>Phone:</h2><p><str>080-7974-8620</str></p>
+        <h2>E-mail:</h2><p><str>tapdancetoday@hotmail.com</str></p>
+    </div>
+  </section>
+
+  <footer>
+    <a href="#top">Top</a>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
